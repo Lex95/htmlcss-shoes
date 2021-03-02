@@ -6,11 +6,33 @@
 section {
     height: 100vh;
     position: relative;
-    background-color: red;
 }
 section > img {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+section > p {
+    width: 700px;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#s1 {
+    background-color: red;
+    color: yellow;
+}
+#s2 {
+    background-color: green;
+    color: yellow;
+}
+#s3 {
+    background-color: yellow;
+    color: green;
 }
